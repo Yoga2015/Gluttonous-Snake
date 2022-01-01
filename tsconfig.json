@@ -1,0 +1,14 @@
+{
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "./src/hello*"
+  ],  
+  "compilerOptions": {   //compilerOptions  编译器的选项，它决定着编译器如何编译我们的ts 文件   ts编译器所对应的的一些选项
+    "target": "es2015",                         /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "es2015",                         /* Specify what module code is generated. */
+    "strict": false,      //（不做类型声明，就会被隐式推断为any类型）
+    "noEmitOnError": true,  
+  },
+}
